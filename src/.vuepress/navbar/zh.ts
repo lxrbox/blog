@@ -1,11 +1,11 @@
 import { navbar } from "vuepress-theme-hope";
 
 export const zhNavbar = navbar([
-  "/zh/",
+  "/",
   {
     text: "Java 基础",
     icon: "book",
-    prefix: "/zh/posts/java-basics/",
+    prefix: "/posts/java-basics/",
     children: [
       { text: "Java 核心", icon: "code", link: "" },
       { text: "集合框架", icon: "layer-group", link: "collections" },
@@ -16,7 +16,7 @@ export const zhNavbar = navbar([
   {
     text: "Spring 生态",
     icon: "leaf",
-    prefix: "/zh/posts/spring/",
+    prefix: "/posts/spring/",
     children: [
       { text: "Spring Framework", icon: "leaf", link: "framework" },
       { text: "Spring Boot", icon: "rocket", link: "boot" },
@@ -27,7 +27,7 @@ export const zhNavbar = navbar([
   {
     text: "微服务架构",
     icon: "cubes",
-    prefix: "/zh/posts/microservices/",
+    prefix: "/posts/microservices/",
     children: [
       { text: "架构设计", icon: "sitemap", link: "architecture" },
       { text: "服务治理", icon: "network-wired", link: "governance" },
@@ -38,7 +38,7 @@ export const zhNavbar = navbar([
   {
     text: "数据库",
     icon: "database",
-    prefix: "/zh/posts/database/",
+    prefix: "/posts/database/",
     children: [
       { text: "MySQL", icon: "database", link: "mysql" },
       { text: "Redis", icon: "fire", link: "redis" },
@@ -49,7 +49,7 @@ export const zhNavbar = navbar([
   {
     text: "工具与实践",
     icon: "toolbox",
-    prefix: "/zh/posts/tools/",
+    prefix: "/posts/tools/",
     children: [
       { text: "开发工具", icon: "wrench", link: "dev-tools" },
       { text: "性能优化", icon: "gauge-high", link: "performance" },

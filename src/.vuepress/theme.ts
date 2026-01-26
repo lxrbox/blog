@@ -1,7 +1,7 @@
 import { hopeTheme } from "vuepress-theme-hope";
 
-import { enNavbar, zhNavbar } from "./navbar/index.js";
-import { enSidebar, zhSidebar } from "./sidebar/index.js";
+import { zhNavbar } from "./navbar/index.js";
+import { zhSidebar } from "./sidebar/index.js";
 
 export default hopeTheme({
   hostname: "https://your-domain.com",
@@ -27,7 +27,7 @@ export default hopeTheme({
   },
 
   locales: {
-    "/zh/": {
+    "/": {
       // navbar
       navbar: zhNavbar,
 
@@ -40,7 +40,7 @@ export default hopeTheme({
 
       blog: {
         description: "Java 后端开发工程师，专注于 Spring 生态、微服务架构、性能优化",
-        intro: "/zh/intro.html",
+        intro: "/intro.html",
       },
 
       // page meta
