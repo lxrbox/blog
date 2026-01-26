@@ -4,84 +4,29 @@ import { enNavbar, zhNavbar } from "./navbar/index.js";
 import { enSidebar, zhSidebar } from "./sidebar/index.js";
 
 export default hopeTheme({
-  hostname: "https://mister-hope.github.io",
+  hostname: "https://your-domain.com",
 
   author: {
-    name: "Mr.Hope",
-    url: "https://mister-hope.com",
+    name: "Java Developer",
+    url: "https://your-domain.com",
   },
 
-  logo: "https://theme-hope-assets.vuejs.press/logo.svg",
+  logo: "/logo.svg",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  repo: "your-github/your-repo",
 
   docsDir: "src",
 
   blog: {
     medias: {
-      Baidu: "https://example.com",
-      BiliBili: "https://example.com",
-      Bitbucket: "https://example.com",
-      Dingding: "https://example.com",
-      Discord: "https://example.com",
-      Dribbble: "https://example.com",
-      Email: "mailto:info@example.com",
-      Evernote: "https://example.com",
-      Facebook: "https://example.com",
-      Flipboard: "https://example.com",
-      Gitee: "https://example.com",
-      GitHub: "https://example.com",
-      Gitlab: "https://example.com",
-      Gmail: "mailto:info@example.com",
-      Instagram: "https://example.com",
-      Lark: "https://example.com",
-      Lines: "https://example.com",
-      Linkedin: "https://example.com",
-      Pinterest: "https://example.com",
-      Pocket: "https://example.com",
-      QQ: "https://example.com",
-      Qzone: "https://example.com",
-      Reddit: "https://example.com",
-      Rss: "https://example.com",
-      Steam: "https://example.com",
-      Twitter: "https://example.com",
-      Wechat: "https://example.com",
-      Weibo: "https://example.com",
-      Whatsapp: "https://example.com",
-      Youtube: "https://example.com",
-      Zhihu: "https://example.com",
-      VuePressThemeHope: {
-        icon: "https://theme-hope-assets.vuejs.press/logo.svg",
-        link: "https://theme-hope.vuejs.press",
-      },
+      GitHub: "https://github.com/your-username",
+      Email: "mailto:your-email@example.com",
+      Zhihu: "https://zhihu.com/people/your-username",
+      // 可以根据需要添加其他社交媒体
     },
   },
 
   locales: {
-    "/": {
-      // navbar
-      navbar: enNavbar,
-
-      // sidebar
-      sidebar: enSidebar,
-
-      footer: "Default footer",
-
-      displayFooter: true,
-
-      blog: {
-        description: "A FrontEnd programmer",
-        intro: "/intro.html",
-      },
-
-      metaLocales: {
-        editLink: "Edit this page on GitHub",
-      },
-    },
-
-    /**
-     * Chinese locale config
-     */
     "/zh/": {
       // navbar
       navbar: zhNavbar,
@@ -89,12 +34,12 @@ export default hopeTheme({
       // sidebar
       sidebar: zhSidebar,
 
-      footer: "默认页脚",
+      footer: "Java 技术博客 | 持续学习，不断进步",
 
       displayFooter: true,
 
       blog: {
-        description: "一个前端开发者",
+        description: "Java 后端开发工程师，专注于 Spring 生态、微服务架构、性能优化",
         intro: "/zh/intro.html",
       },
 
@@ -105,18 +50,14 @@ export default hopeTheme({
     },
   },
 
-  encrypt: {
-    config: {
-      "/demo/encrypt.html": {
-        hint: "Password: 1234",
-        password: "1234",
-      },
-      "/zh/demo/encrypt.html": {
-        hint: "Password: 1234",
-        password: "1234",
-      },
-    },
-  },
+  // encrypt: {
+  //   config: {
+  //     "/zh/demo/encrypt.html": {
+  //       hint: "Password: 1234",
+  //       password: "1234",
+  //     },
+  //   },
+  // },
 
   // enable it to preview all changes in time
   // hotReload: true,

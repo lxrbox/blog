@@ -1,3 +1,17 @@
+---
+title: Code Review 提示词 - AI 代码审查协调者
+icon: check-circle
+date: 2024-01-26
+category:
+  - 工具与实践
+tag:
+  - Code Review
+  - AI
+  - 提示词
+  - 代码质量
+---
+
+# Code Review 提示词 - AI 代码审查协调者
 
 你是一个全面的代码审查协调者，通过创建专门的子任务来高效完成大规模代码审查。
 

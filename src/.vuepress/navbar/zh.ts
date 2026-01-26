@@ -2,51 +2,59 @@ import { navbar } from "vuepress-theme-hope";
 
 export const zhNavbar = navbar([
   "/zh/",
-  "/zh/demo/",
   {
-    text: "博文",
-    icon: "pen-to-square",
-    prefix: "/zh/posts/",
+    text: "Java 基础",
+    icon: "book",
+    prefix: "/zh/posts/java-basics/",
     children: [
-      {
-        text: "苹果",
-        icon: "pen-to-square",
-        prefix: "apple/",
-        children: [
-          { text: "苹果1", icon: "pen-to-square", link: "1" },
-          { text: "苹果2", icon: "pen-to-square", link: "2" },
-          "3",
-          "4",
-        ],
-      },
-      {
-        text: "香蕉",
-        icon: "pen-to-square",
-        prefix: "banana/",
-        children: [
-          {
-            text: "香蕉 1",
-            icon: "pen-to-square",
-            link: "1",
-          },
-          {
-            text: "香蕉 2",
-            icon: "pen-to-square",
-            link: "2",
-          },
-          "3",
-          "4",
-        ],
-      },
-      { text: "樱桃", icon: "pen-to-square", link: "cherry" },
-      { text: "火龙果", icon: "pen-to-square", link: "dragonfruit" },
-      "tomato",
-      "strawberry",
+      { text: "Java 核心", icon: "code", link: "" },
+      { text: "集合框架", icon: "layer-group", link: "collections" },
+      { text: "并发编程", icon: "gears", link: "concurrency" },
+      { text: "JVM 原理", icon: "microchip", link: "jvm" },
     ],
   },
   {
-    text: "V2 文档",
-    icon: "book",
-    link: "https://theme-hope.vuejs.press/zh/",
+    text: "Spring 生态",
+    icon: "leaf",
+    prefix: "/zh/posts/spring/",
+    children: [
+      { text: "Spring Framework", icon: "leaf", link: "framework" },
+      { text: "Spring Boot", icon: "rocket", link: "boot" },
+      { text: "Spring Cloud", icon: "cloud", link: "cloud" },
+      { text: "Spring Security", icon: "shield", link: "security" },
+    ],
+  },
+  {
+    text: "微服务架构",
+    icon: "cubes",
+    prefix: "/zh/posts/microservices/",
+    children: [
+      { text: "架构设计", icon: "sitemap", link: "architecture" },
+      { text: "服务治理", icon: "network-wired", link: "governance" },
+      { text: "分布式事务", icon: "exchange-alt", link: "transaction" },
+      { text: "消息队列", icon: "envelope", link: "mq" },
+    ],
+  },
+  {
+    text: "数据库",
+    icon: "database",
+    prefix: "/zh/posts/database/",
+    children: [
+      { text: "MySQL", icon: "database", link: "mysql" },
+      { text: "Redis", icon: "fire", link: "redis" },
+      { text: "MongoDB", icon: "leaf", link: "mongodb" },
+      { text: "MyBatis", icon: "code", link: "mybatis" },
+    ],
+  },
+  {
+    text: "工具与实践",
+    icon: "toolbox",
+    prefix: "/zh/posts/tools/",
+    children: [
+      { text: "开发工具", icon: "wrench", link: "dev-tools" },
+      { text: "性能优化", icon: "gauge-high", link: "performance" },
+      { text: "代码质量", icon: "check-circle", link: "code-quality" },
+      { text: "部署运维", icon: "server", link: "devops" },
+    ],
   },
 ]);
