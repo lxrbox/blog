@@ -1,0 +1,6 @@
+# Cloudflare Pages 构建配置
+build:
+  command: pnpm docs:build
+  output: src/.vuepress/dist
+  environment:
+    NODE_VERSION: 22

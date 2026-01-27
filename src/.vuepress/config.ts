@@ -31,9 +31,14 @@ export default defineUserConfig({
           formatter: "标签：$content",
         },
       ],
+      // 确保在生产环境中也能正常工作
+      hotReload: false,
+      // 增加搜索结果数量
+      resultHistoryCount: 5,
+      searchDelay: 150,
     }),
   ],
 
-  // Enable it with pwa
-  // shouldPrefetch: false,
+  // 确保在生产环境中正确构建
+  shouldPrefetch: false,
 });
