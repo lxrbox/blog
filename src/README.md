@@ -4,11 +4,11 @@ layout: BlogHome
 icon: home
 title: 首页
 heroImage: /logo.svg
-heroText: Java 技术博客
-tagline: 专注于 Java 后端开发、Spring 生态、微服务架构等技术分享
+heroText: Demian
+tagline: Demian 的灵感聚集地
 heroFullScreen: false
-bgImage: https://theme-hope-assets.vuejs.press/bg/6-light.svg
-bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
+bgImage: https://theme-hope-assets.vuejs.press/bg/3-light.svg
+bgImageDark: https://theme-hope-assets.vuejs.press/bg/3-dark.svg
 bgImageStyle:
   background-attachment: fixed
 projects:
@@ -21,5 +21,5 @@ projects:
     desc: 文件的存档
     link: /posts/tools/
 
-footer:  技术博客 | 持续学习，不断进步
+footer: 技术博客 | 持续学习，不断进步
 ---

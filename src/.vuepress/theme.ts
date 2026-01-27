@@ -7,7 +7,7 @@ export default hopeTheme({
   hostname: "https://your-domain.com",
 
   author: {
-    name: "Java Developer",
+    name: "Demian",
     url: "https://github.com/lxrbox",
   },
 
