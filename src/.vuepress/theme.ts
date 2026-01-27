@@ -135,6 +135,37 @@ export default hopeTheme({
   plugins: {
     blog: true,
 
+    // 搜索插件配置
+    slimsearch: {
+      // 索引全部内容
+      indexContent: true,
+      // 索引选项
+      indexOptions: {
+        // 为中文搜索优化
+        tokenize: (text, fieldName) => {
+          // 使用简单的分词策略
+          return text.split(/[\s\-\u4e00-\u9fa5]+/).filter(t => t);
+        },
+      },
+      // 自定义字段索引
+      customFields: [
+        {
+          name: "category",
+          getter: (page) => page.frontmatter.category,
+          formatter: "分类：$content",
+        },
+        {
+          name: "tag", 
+          getter: (page) => page.frontmatter.tag,
+          formatter: "标签：$content",
+        },
+      ],
+      // 搜索热键
+      hotKeys: [{ key: "k", ctrl: true }],
+      // 搜索延迟
+      searchDelay: 150,
+    },
+
     // Install @waline/client before enabling it
     // Note: This is for testing ONLY!
     // You MUST generate and use your own comment service in production.
