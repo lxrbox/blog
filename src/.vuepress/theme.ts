@@ -8,12 +8,12 @@ export default hopeTheme({
 
   author: {
     name: "Java Developer",
-    url: "https://your-domain.com",
+    url: "https://github.com/lxrbox",
   },
 
   logo: "/logo.svg",
 
-  repo: "your-github/your-repo",
+  repo: "https://github.com/lxrbox",
 
   docsDir: "src",
 

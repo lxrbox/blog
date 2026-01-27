@@ -4,30 +4,9 @@ export const zhSidebar = sidebar({
   "/": [
     "",
     {
-      text: "Java 基础",
-      icon: "book",
-      prefix: "posts/java-basics/",
-      collapsible: true,
-      children: "structure",
-    },
-    {
-      text: "Spring 生态",
-      icon: "leaf",
-      prefix: "posts/spring/",
-      collapsible: true,
-      children: "structure",
-    },
-    {
-      text: "微服务架构",
-      icon: "cubes",
-      prefix: "posts/microservices/",
-      collapsible: true,
-      children: "structure",
-    },
-    {
-      text: "数据库",
-      icon: "database",
-      prefix: "posts/database/",
+      text: "项目",
+      icon: "folder-open",
+      prefix: "posts/project/",
       collapsible: true,
       children: "structure",
     },

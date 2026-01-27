@@ -26,7 +26,7 @@ Java 后端开发工程师，专注于企业级应用开发和微服务架构设
 
 ## 🔗 联系方式
 
-- **GitHub**: [your-github](https://github.com/your-username)
+- **GitHub**: [your-github](https://github.com/lxrbox)
 - **Email**: your-email@example.com
 - **知乎**: [your-zhihu](https://zhihu.com/people/your-username)
 
