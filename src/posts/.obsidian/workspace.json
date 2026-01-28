@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "project/金字塔原理.md",
+                "file": "project/《设计数据密集型应用》笔记.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "金字塔原理"
+              "title": "《设计数据密集型应用》笔记"
             }
           }
         ],
@@ -214,8 +214,8 @@
   },
   "active": "a76109e1670025a6",
   "lastOpenFiles": [
-    "project/《设计数据密集型应用》笔记.md",
     "project/金字塔原理.md",
+    "project/《设计数据密集型应用》笔记.md",
     "project/Ossutil 命令.md",
     "tools/README.md",
     "java-basics/hashmap-source-code.md",
