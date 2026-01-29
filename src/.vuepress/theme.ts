@@ -141,10 +141,25 @@ export default hopeTheme({
       indexContent: true,
       // 索引选项
       indexOptions: {
-        // 为中文搜索优化
+        // 为中文搜索优化 - 修正分词策略
         tokenize: (text, fieldName) => {
-          // 使用简单的分词策略
-          return text.split(/[\s\-\u4e00-\u9fa5]+/).filter(t => t);
+          // 使用更合理的分词策略：按空格、标点符号分词，保留中文字符
+          // 匹配中文词组（2-4个字）、英文单词、数字
+          const tokens = [];
+          
+          // 提取英文单词和数字
+          const westernTokens = text.match(/[a-zA-Z0-9]+/g) || [];
+          tokens.push(...westernTokens);
+          
+          // 提取中文字符（单字和词组）
+          const chineseChars = text.match(/[\u4e00-\u9fa5]/g) || [];
+          tokens.push(...chineseChars);
+          
+          // 提取中文词组（2-4个连续汉字）
+          const chinesePhrases = text.match(/[\u4e00-\u9fa5]{2,4}/g) || [];
+          tokens.push(...chinesePhrases);
+          
+          return tokens.filter(t => t && t.length > 0);
         },
       },
       // 自定义字段索引
