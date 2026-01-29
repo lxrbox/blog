@@ -212,10 +212,12 @@
       "bases:新建数据库": false
     }
   },
-  "active": "a76109e1670025a6",
+  "active": "07a7f4883290f4c7",
   "lastOpenFiles": [
-    "project/金字塔原理.md",
+    "project/2026-01-29：那不勒斯阅读笔记.md",
     "project/《设计数据密集型应用》笔记.md",
+    "project/线上稳定性保障与应急响应机制.md",
+    "project/金字塔原理.md",
     "project/Ossutil 命令.md",
     "tools/README.md",
     "java-basics/hashmap-source-code.md",
