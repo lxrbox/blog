@@ -4,7 +4,7 @@ import { zhNavbar } from "./navbar/index.js";
 import { zhSidebar } from "./sidebar/index.js";
 
 export default hopeTheme({
-  hostname: "https://your-domain.com",
+  hostname: "https://blog.demian.cloud",
 
   author: {
     name: "Demian",
@@ -134,6 +134,11 @@ export default hopeTheme({
 
   plugins: {
     blog: true,
+
+    // sitemap 配置
+    sitemap: {
+      hostname: "https://blog.demian.cloud",
+    },
 
     // 搜索插件配置
     slimsearch: {
