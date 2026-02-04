@@ -60,12 +60,3 @@ vim
 ```
 
 ---
-
-## 如果你想“立刻变好看”（不用插件也行）
-
-在 Vim 里先试：
-
-```vim
-:colorscheme slate
-:colorscheme evening
-```
