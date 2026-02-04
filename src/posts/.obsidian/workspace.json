@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tools/Vim 配置.md",
-                "mode": "preview",
+                "file": "project/常考面试题.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Vim 配置"
+              "title": "常考面试题"
             }
           }
         ],
@@ -225,10 +225,11 @@
   },
   "active": "145b2cb377b45405",
   "lastOpenFiles": [
-    "MySQL 索引详解.md",
-    "未命名.md",
-    "tools/code-review-prompts.md",
+    "project/金字塔原理.md",
+    "project/常考面试题.md",
     "tools/Vim 配置.md",
+    "MySQL 索引详解.md",
+    "tools/code-review-prompts.md",
     "project/Ossutil 命令.md",
     "project/《设计数据密集型应用》笔记.md",
     "elasticsearch/零停机切换方案：使用别名 (Index Alias).md",
@@ -237,7 +238,6 @@
     "Pasted image 20260129215213.png",
     "project/线上稳定性保障与应急响应机制.md",
     "project/2026-01-29：那不勒斯阅读笔记.md",
-    "project/金字塔原理.md",
     "java-basics/hashmap-source-code.md",
     "project/Charles 抓包工具使用说明.md",
     "project",
