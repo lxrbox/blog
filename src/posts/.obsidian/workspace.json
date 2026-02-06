@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "project/MySQL 索引详解.md",
-                "mode": "source",
+                "file": "踩坑记录/RuoyiCloud 获取用户ID的正确姿势.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MySQL 索引详解"
+              "title": "RuoyiCloud 获取用户ID的正确姿势"
             }
           }
         ],
@@ -223,17 +223,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "07a7f4883290f4c7",
+  "active": "95a15f17a594e6ae",
   "lastOpenFiles": [
+    "tools/README.md",
+    "踩坑记录/RuoyiCloud 获取用户ID的正确姿势.md",
+    "踩坑记录",
+    "project/Ossutil 命令.md",
+    "project/MySQL 索引详解.md",
     "project/常考面试题.md",
     "project/金字塔原理.md",
     "tools/Vim 配置.md",
-    "project/MySQL 索引详解.md",
     "tools/code-review-prompts.md",
-    "project/Ossutil 命令.md",
     "project/《设计数据密集型应用》笔记.md",
     "elasticsearch/零停机切换方案：使用别名 (Index Alias).md",
-    "tools/README.md",
     "elasticsearch",
     "Pasted image 20260129215213.png",
     "project/线上稳定性保障与应急响应机制.md",
