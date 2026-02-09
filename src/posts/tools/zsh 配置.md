@@ -1,6 +1,13 @@
 ---
 title: zsh 配置
+date: 2026-02-09
+icon: wrench
+category:
+  - 技术笔记
+tag:
+  - 实用工具
 ---
+
 # **安装zsh-syntax-highlighting**
 
 

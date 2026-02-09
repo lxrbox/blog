@@ -1,9 +1,11 @@
 ---
-tags:
-  - 实用工具
 title: Charles 抓包工具使用说明
-index: true
 date: 2026-01-27
+icon: book
+category:
+  - 技术笔记
+tag:
+  - 项目笔记
 ---
 
 ## 一、序言

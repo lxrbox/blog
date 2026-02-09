@@ -1,10 +1,11 @@
 ---
 title: Code Review 提示词 - AI 代码审查协调者
-icon: check-circle
 date: 2024-01-26
+icon: check-circle
 category:
-  - 工具与实践
+  - 技术笔记
 tag:
+  - 实用工具
   - Code Review
   - AI
   - 提示词

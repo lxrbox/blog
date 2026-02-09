@@ -1,5 +1,11 @@
 ---
 title: 零停机切换方案：使用别名 (Index Alias)
+date: 2026-02-09
+icon: database
+category:
+  - 技术笔记
+tag:
+  - Elasticsearch
 ---
 
 ## 零停机切换方案：使用别名 (Index Alias)

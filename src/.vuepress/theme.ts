@@ -195,7 +195,24 @@ export default hopeTheme({
     // },
 
     components: {
-      components: ["Badge", "VPCard"],
+      components: ["Badge", "VPCard", "Share"],
+      componentOptions: {
+        share: {
+          services: [
+            "twitter",
+            "facebook",
+            "reddit",
+            "linkedin",
+            "whatsapp",
+            "telegram",
+            "weibo",
+            "qq",
+            "qzone",
+            "douban",
+            "email",
+          ],
+        },
+      },
     },
 
     icon: {

@@ -1,8 +1,11 @@
 ---
 title: Ossutil 命令
 date: 2026-01-27
-category: 工具与实践
+icon: book
+category:
+  - 技术笔记
 tag:
+  - 项目笔记
   - 实用工具
   - OSS
 ---

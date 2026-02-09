@@ -1,9 +1,11 @@
 ---
 title: RuoyiCloud 获取用户ID的正确姿势
-tags:
-  - 踩坑日记
+date: 2026-02-09
 icon: check-circle
+category:
+  - 技术笔记
 ---
+
 ## 核心结论
 
   **网关放行的接口必须使用 `TokenService.getLoginUser()`，不能使用 `SecurityUtils.getUserId()`。**  
@@ -309,6 +311,3 @@ return redisService.getCacheObject(getTokenKey(userkey));
 └─ 否 → 使用 SecurityUtils ✅
 
 ```
-
-
-
