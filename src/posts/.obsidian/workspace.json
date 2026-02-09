@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "踩坑记录/RuoyiCloud 获取用户ID的正确姿势.md",
-                "mode": "preview",
+                "file": "project/2026-02-09：《一人之下》观后感.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "RuoyiCloud 获取用户ID的正确姿势"
+              "title": "2026-02-09：《一人之下》观后感"
             }
           }
         ],
@@ -223,23 +223,25 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "95a15f17a594e6ae",
+  "active": "145b2cb377b45405",
   "lastOpenFiles": [
-    "tools/README.md",
+    "project/2026-01-29：那不勒斯阅读笔记.md",
+    "project/2026-02-09：《一人之下》观后感.md",
+    "tools/zsh 配置.md",
+    "tools/Vim 配置.md",
     "踩坑记录/RuoyiCloud 获取用户ID的正确姿势.md",
+    "tools/README.md",
     "踩坑记录",
     "project/Ossutil 命令.md",
     "project/MySQL 索引详解.md",
     "project/常考面试题.md",
     "project/金字塔原理.md",
-    "tools/Vim 配置.md",
     "tools/code-review-prompts.md",
     "project/《设计数据密集型应用》笔记.md",
     "elasticsearch/零停机切换方案：使用别名 (Index Alias).md",
     "elasticsearch",
     "Pasted image 20260129215213.png",
     "project/线上稳定性保障与应急响应机制.md",
-    "project/2026-01-29：那不勒斯阅读笔记.md",
     "java-basics/hashmap-source-code.md",
     "project/Charles 抓包工具使用说明.md",
     "project",
