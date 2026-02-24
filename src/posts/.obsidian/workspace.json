@@ -62,9 +62,23 @@
               "icon": "lucide-file",
               "title": "2026-02-21 日记"
             }
+          },
+          {
+            "id": "fea3c269a05ba9fa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "project/MySQL 索引详解.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "MySQL 索引详解"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -199,13 +213,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2026-02-21 日记.md",
+                "file": "project/MySQL 索引详解.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2026-02-21 日记 的大纲"
+              "title": "MySQL 索引详解 的大纲"
             }
           },
           {
@@ -237,11 +251,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e7183b6fec25be5d",
+  "active": "fea3c269a05ba9fa",
   "lastOpenFiles": [
+    "未命名 1.md",
+    "project/MySQL 索引详解.md",
+    "2026-02-21 日记.md",
     "project/《星际牛仔》观后感.md",
     "未命名.md",
-    "2026-02-21 日记.md",
     "Untitled.md",
     "project/《设计数据密集型应用》笔记.md",
     "project/《思考，快与慢》读书笔记.md",
@@ -258,7 +274,6 @@
     "tools/Vim 配置.md",
     "tools/README.md",
     "踩坑记录",
-    "project/MySQL 索引详解.md",
     "project/常考面试题.md",
     "project/金字塔原理.md",
     "tools/code-review-prompts.md",
@@ -269,7 +284,6 @@
     "project/Charles 抓包工具使用说明.md",
     "project",
     "spring/README.md",
-    "microservices/README.md",
     "未命名.canvas"
   ]
 }
